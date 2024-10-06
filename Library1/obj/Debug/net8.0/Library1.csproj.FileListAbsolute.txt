@@ -1,0 +1,11 @@
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/bin/Debug/net8.0/Library1.deps.json
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/bin/Debug/net8.0/Library1.dll
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/bin/Debug/net8.0/Library1.pdb
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.AssemblyInfoInputs.cache
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.AssemblyInfo.cs
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.csproj.CoreCompileInputs.cache
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.dll
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/refint/Library1.dll
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/Library1.pdb
+/Users/dianaliu/Documents/Codes/Practices/JR-c#/MyFirstSolution/Library1/obj/Debug/net8.0/ref/Library1.dll

@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Project1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Project1/bin/Debug/net8.0/Project1.dll", // path to your DLL
+            "args": [],
+            "cwd": "${workspaceFolder}/Project1", // path to your project folder
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },
+        {
+            "name": "Project2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Project2/bin/Debug/net8.0/Project2.dll", // path to your DLL
+            "args": [],
+            "cwd": "${workspaceFolder}/Project2", // path to your project folder
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },
+    ]
+}
