@@ -17,9 +17,9 @@
 # Build output
 **/bin/
 **/obj/
-*/out/
-*.exe
-*.dll
+**/out/
+**.exe
+**.dll
 
 # ASP.NET
 project.lock.json
