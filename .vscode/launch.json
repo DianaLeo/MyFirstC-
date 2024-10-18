@@ -26,5 +26,16 @@
             "console": "internalConsole",
             "stopAtEntry": false,
         },
+        {
+            "name": "WebApplication1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/WebApplication1/bin/Debug/net8.0/WebApplication1.dll", // path to your DLL
+            "args": [],
+            "cwd": "${workspaceFolder}/WebApplication1", // path to your project folder
+            "console": "internalConsole",
+            "stopAtEntry": false,
+        },
     ]
 }
