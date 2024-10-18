@@ -15,8 +15,8 @@
 *_ReSharper.Caches
 
 # Build output
-*/bin/
-*/obj/
+**/bin/
+**/obj/
 */out/
 *.exe
 *.dll
