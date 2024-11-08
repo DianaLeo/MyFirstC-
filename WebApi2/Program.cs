@@ -9,6 +9,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var envName = builder.Environment.EnvironmentName;
+var key1value = builder.Configuration["key1"];
+Console.WriteLine(envName+key1value);
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
