@@ -103,3 +103,42 @@ built-in model validation can be disabled by
 ```csharp
 builder.Services.Configure<ApiBehaviorOptions>(options=>options.SupressModelStateInvalidFilter = true);
 ```
+
+## AOP Aspect-Oriented-Programming
+Focus on separating cross-cutting concerns in software design from business logic by creating “aspects” that can be applied to multiple parts of a program.
+
+### Filters
+Filters can be seen as a specialized implementation of AOP principles within the web request-response context. 
+
+**Excution Order**
+- Authorization Filters
+- Resource Filters
+- Action Filters
+- Exception Filters
+- Result Filters
+
+**ExceptionFilter vs ExceptionMiddleware**
+- ExceptionFilters
+    - They execute only after an action has been selected and only if the request reaches the MVC pipeline.
+- ExceptionMiddleware
+    - Middleware runs at a lower level in the pipeline and can handle exceptions for all types of requests, including non-MVC requests, which makes it useful for broader exception handling.
+Exception Middleware is often a preferred solution for centralized, consistent error handling across the application.
+
+## Generic
+
+### Generic Types
+- Generic Class
+- Generic Method
+- Generic Interface
+- Generic Contraint
+- Generic Delegate
+
+### .NET built-in Generics
+- List<T>
+    - Normal
+- Queue<T>
+    - for Messages
+- Dictionary<Tkey,Tvalue>
+    - for Caching
+- IEnumarable<T>
+    - for Delay Execution
